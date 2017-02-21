@@ -52,9 +52,6 @@ article {
     margin: 10px 0;
     padding: 10px;
 }
-article:first-child {
-    padding: 10px;
-}
 section[data-key="sameHeights"] {
     background-color: rgba(0, 132, 176, .6);
     border-radius: 20px;
@@ -170,6 +167,9 @@ picture img {
     article[data-key="sameHeights"] {
         padding: 10px 10px 130px 10px;
     }
+    article:first-child {
+        padding: 10px;
+    }
     footer {
         height: 50px;
         line-height: normal;
@@ -202,6 +202,9 @@ picture img {
     }
     article[data-key="sameHeights"] {
         padding: 10px 10px 130px 10px;
+    }
+    article:first-child {
+        padding: 10px;
     }
     footer {
         height: 50px;
