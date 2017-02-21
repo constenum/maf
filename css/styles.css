@@ -162,7 +162,7 @@ picture img {
     }
     header {
         display: block;
-        content: url("../img/banner-md.jpg");
+        content: url("../img/banner-md.jpg"); /* responsive background image tablet */
     }
     article[data-key="sameHeights"] {
         padding: 10px 10px 130px 10px;
@@ -198,7 +198,7 @@ picture img {
     }
     header {
         display: block;
-        content: url("../img/banner-lg.jpg");
+        content: url("../img/banner-lg.jpg"); /* responsive background image desktop */
     }
     article[data-key="sameHeights"] {
         padding: 10px 10px 130px 10px;
